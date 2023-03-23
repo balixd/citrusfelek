@@ -25,7 +25,9 @@ padding: 5px 15px;
 
 h3{    
     font-weight: bold;
-    color: #894f3b;    
+    color: #894f3b;   
+    text-align: center;
+     
 }
 .bold{
     font-weight: bold;
