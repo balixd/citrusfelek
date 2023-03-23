@@ -103,12 +103,16 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script>
         function szamol(){
-            let g =+    document.getElementById('weight').value
+            let g =+document.getElementById('weight').value
             if(document.getElementById('weight').value==""){
                 document.getElementById('eredmeny').innerHTML='Nem irtal be semmit!'
-            }else if(g/1!=g){
+            }
+            else if(g/1!=g)
+            {
                 document.getElementById('eredmeny').innerHTML='nm szamot irtal be!'
-            }else{
+            }
+            else
+            {
                 let kcal= g/100*46
                 let kcal2 = g/100*50
                 document.getElementById('eredmeny').innerHTML=kcal+ `-`+kcal2+` kcal`
