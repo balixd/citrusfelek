@@ -21,6 +21,7 @@ h2{
     border-left: 3px dotted;  
 font-variant: small-caps;
 padding: 5px 15px;
+letter-spacing: 1px;
 }
 
 h3{    
