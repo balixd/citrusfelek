@@ -27,10 +27,21 @@ h3{
     font-weight: bold;
     color: #894f3b;    
 }
+.bold{
+    font-weight: bold;
+}
+th{
+    text-transform: uppercase;
+}
 
-
+ul{
+}
 li{
     list-style-image: url(../img/lemon2.png);
+    margin-left: 40px;
+    float: left;
+
+
 }
 
 
